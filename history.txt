@@ -1,0 +1,155 @@
+    1  ls
+    2  cd Documents
+    3  clear
+    4  cd ../
+    5  ls
+    6  clear
+    7  nano notes.txt
+    8  g
+    9  fg
+   10  clear
+   11  nano notes.txt
+   12  clear
+   13  ls
+   14  mv notes.txt documents/
+   15  mv notes.txt Documents/
+   16  cd Documents
+   17  ls
+   18  cat notes.txt
+   19  clear
+   20  cd ../
+   21  ls
+   22  pwd
+   23  clear
+   24  ls
+   25  cd Documents
+   26  ls
+   27  cat notes.txt
+   28  clear
+   29  cd ../
+   30  man man
+   31  celar
+   32  clear
+   33  man top
+   34  top
+   35  clear
+   36  uptime
+   37  clear
+   38  top
+   39  clear
+   40  pwd
+   41  ls
+   42  sudo apt-get install fortunes
+   43  cd Documents
+   44  cat notes.txt
+   45  cd ../
+   46  nano notes.txt
+   47  cd Documents
+   48  ls
+   49  nano notes.txt
+   50  clear
+   51  cd ../
+   52  clear
+   53  cd Documents
+   54  nano notes.txt
+   55  pwd
+   56  ls
+   57  clear
+   58  mkdir manhattan-zoo
+   59  ls
+   60  clear
+   61  cd manhattan-zoo
+   62  git init
+   63  touch meal-log.txt
+   64  ls
+   65  git add meal-log.txt
+   66  git commit -m "Create meal-log"
+   67  git config --global user.email "caleb.kryton@gmail.com"
+   68  git config --global user.name "Caleb Kryton"
+   69  git commit -m "Create meal-log"
+   70  nano
+   71  ls
+   72  nano meal-log.txt
+   73  git commit -m "Add feeding instructions"
+   74  git add meal-log.txt
+   75  git commit -m "Add feeding instructions"
+   76  nano meal-log.txt
+   77  git add meal-log.txt
+   78  git commit -m "Add Chinchilla meal"
+   79  git log
+   80  touch meal-regimens.txt
+   81  git add meal-regimens.txt
+   82  git commit -m "make new meal file"
+   83  nano meal-regimens.txt
+   84  git add mreal-regimens.txt
+   85  git add meal-regimens.txt
+   86  git commit -m "Add frog meal"
+   87  nano meal-regimens.txt
+   88  git add meal-regimens.txt meal-log.txt
+   89  git commit -m "Complete meals for animals"
+   90  git log > commit-history.txt
+   91  cat commit-history.txt
+   92  clear
+   93  cd ../
+   94  ls
+   95  cd Documents
+   96  ls
+   97  nano notes.txt
+   98  ls
+   99  cd Documents
+  100  ls
+  101  cd hello world git
+  102  cd hello\ world\ git/
+  103  ls
+  104  nano poem.txt
+  105  git init
+  106  nano poem.txt
+  107  clear
+  108  cd ../../
+  109  git init
+  110  cd Documents/hello\ world\ git/
+  111  nano poem.txt
+  112  clear
+  113  cd .././
+  114  cd../
+  115  cd ../
+  116  git clone https://github.com/CompSci10/hello-world-git-assignment-Krytoca.git
+  117  git init
+  118  ls
+  119  cd hello-world-git-assignment-Krytoca/
+  120  ls
+  121  nano poem.txt
+  122  git add poem.txt
+  123  git commit -m "Correct errors in poem"
+  124  git branch
+  125  bit branch myPoem
+  126  git branch myPoem
+  127  git branch
+  128  git checkout myPoem
+  129  ls
+  130  nano poem.txt
+  131  sed 's/lion/bear/g' poem.txt
+  132  nano poem.txt
+  133  clear
+  134  nano poem.txt
+  135  git commit -m "Change lion to bear"
+  136  git add poem.txt
+  137  git commit -m "Change lion to bear"
+  138  git log
+  139  nano poem.txt
+  140  git add poem.txt
+  141  git commmit -m "Edited author"
+  142  git commit -m "Edit author"
+  143  git tag -l
+  144  git tag
+  145  clear
+  146  git log
+  147  clear
+  148  git tag -a version2 -m "Improved Version"
+  149  git show
+  150  git checkout master
+  151  git merge myPoem
+  152  git log
+  153  git reset 578249e
+  154  terminal history > history.txt
+  155  history > history.txt
